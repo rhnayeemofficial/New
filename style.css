@@ -1,0 +1,121 @@
+.h1, .h2{
+    color: red;
+    text-align: center;
+}
+.h2{
+    color: blue;
+}
+.pos{
+    height: 300px;
+    width: 200px;
+}
+.img01{
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+.img03{
+    position: absolute;
+    
+}
+.main_img{
+    height: 400px;
+}
+
+.img{
+    display: inline;
+}
+.inline01{
+    position: relative;
+    margin-left: 250px;
+}
+.llk{
+    position:fixed;
+    
+}
+.orange{
+    background-color: rgb(248, 195, 97);
+}
+.area{
+    height: 300px;
+    background-color: paleturquoise;
+}
+.hov{
+    border:1px solid purple;
+    height: 90px;
+    width: 90px;
+    margin: 20px;
+    float: left;
+    background-color: rgb(39, 40, 41);
+    
+    
+}
+
+
+.job:hover + .be{
+    background-color: violet;
+    border-radius: 100px;
+}
+.job:hover + .be +.ni{
+    background-color: blue;
+    border-radius: 100px;
+}
+.job:hover +.be +.ni + .aa{
+    background-color: skyblue;
+    border-radius: 100px;
+}
+.job:hover +.be +.ni + .aa+ .so{
+    background-color: green;
+    border-radius: 100px;
+}
+.job:hover +.be +.ni + .aa+ .so+ .ho{
+    background-color: yellow;
+    border-radius: 100px;
+}
+.job:hover +.be +.ni +.aa+ .so+ .ho+ .ko{
+    background-color:orangered;
+    border-radius: 100px;
+}
+.job:hover +.be +.ni +.aa+ .so+ .ho+ .ko+ .la{
+    background-color: red;
+    border-radius: 100px;
+}
+.svg{
+    height: 400px;
+    background-color: burlywood;
+}
+.ssl{
+    height: 300px;
+    font-weight: 200px;
+}
+.ssd{
+    float: left;
+    position: relative;
+    margin-left: 200px;
+}
+
+div.a {
+    width: 150px;
+    height: 80px;
+    background-color: rgb(67, 180, 57);
+     
+    transform: rotate(20deg);
+  }
+  
+.class{
+    border: 1px solid blue;
+    height: 200px;
+    width: 180px;
+    overflow: hidden;
+}
+.mcl{
+    height: 200px;
+    width: 25%;
+    margin: 10px;
+    background-color: crimson;
+    border: 1px solid blue;
+    float: left;
+}
+.hidden{
+    visibility: hidden;
+}
